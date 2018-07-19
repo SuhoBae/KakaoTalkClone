@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css" class="css">
   </head>
-  <body>
-    <header class="top-header">
+  <body class="chat-body">
+    <header class="top-header chat-header">
       <div class="header__top">
             <div class="header__column">
             <!--plane icon-->
@@ -27,7 +27,7 @@
           </div>
       </div>
 
-    <div class="header__bottom">
+    <div class="header__bottom chat-header__bottom">
       <div class="header__column">
         <span class="header__text">
           <a HREF="javascript:history.go(-1)">
@@ -50,27 +50,40 @@
 
 
      <main class="chat">
+
        <div class="date-divider">
          <span class="date-divider__text">
               2018년 7월 18일 수요일
          </span>
        </div>
+
        <div class="chat__message chat__message--from-me">
-         <span class="chat__message-time">오후 11:41</span>
-         <span class="chat__message-body">테스트용 문구입니다.</span>
+           <div class="chat__massege-text">
+             <span class="chat__message-time">오후 11:41</span>
+             <span class="chat__message-body">테스트용 문구입니다.</span>
+           </div>
        </div>
-       <div class="chat__message chat__message--to-me">
-         <img src="images/ninja.jpg" alt="" class="chat__message-avatar">
-         <div class="chat__message-center">
-           <h3 class="chat__message-username">퇴근닌자</h3>
-         </div>
-         <span class="chat__message-body">이것은 답변입니다.</span>
-         <span class="chat__message-time">오후 11:43</span>
+
+       <div class="chat__massage--respond">
+          <img src="images/ninja.jpg" alt="" class="chat__message-avatar">
+           <div class="chat__message chat__message--to-me">
+                 <div class="chat__message-center">
+                   <h3 class="chat__message-username">퇴근닌자</h3>
+                 </div>
+                 <div class="chat__massage-text">
+                     <span class="chat__message-body">이것은 답변입니다.</span>
+                     <span class="chat__message-time">오후 11:43</span>
+                </div>
+                <div class="chat__massage-text">
+                    <span class="chat__message-body">그럼 이제 퇴근해도 되나여?</span>
+                    <span class="chat__message-time">오후 11:45</span>
+               </div>
+          </div>
       </div>
      </main>
 
       <div class="type-message">
-        <i class="fas fa-plus fa-2x"></i>
+        <i class="fas fa-plus"></i>
         <div class="type-message__input">
           <input type="text">
           <i class="far fa-smile-wink"></i>
@@ -79,6 +92,10 @@
           </span>
         </div>
       </div>
+
+          <div class="bigScreenText">
+            <span>Please make your screen smaller</span>
+          </div>
 
   </body>
 </html>

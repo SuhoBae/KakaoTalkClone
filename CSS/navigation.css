@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  transition: transform 0.2s ease-in-out;
 }
 .tab-bar .tab-bar__title {
   font-size: 11px;
@@ -30,4 +31,7 @@
 .tab-bar a {
   text-decoration: none;
   color: #7f7f7f;
+}
+.tab-bar .tab-bar__tab:hover {
+  transform: scale(1.1);
 }

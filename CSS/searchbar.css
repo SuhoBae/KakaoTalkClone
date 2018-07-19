@@ -18,9 +18,11 @@
   text-align: center;
   color: black;
   position: relative;
+  transition: border 0.5s linear;
 }
 .search-bar input:focus {
   outline: none;
+  border: 1px solid #8a8a8a;
 }
 .search-bar i {
   position: absolute;
