@@ -40,3 +40,6 @@
   padding: 10px 8px 10px 8px;
   border-radius: 3px;
 }
+body {
+  border-bottom: 0.25px solid #e6e6e6;
+}

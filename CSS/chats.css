@@ -2,11 +2,6 @@
   border-top: 0.25px solid #e6e6e6;
   padding: 10px 15px;
 }
-.chats__chat-blank {
-  border-top: 0.25px solid #e6e6e6;
-  padding: 10px 15px;
-}
-
 .chat__last-messagge {
   padding: 5px;
 }
@@ -43,4 +38,20 @@
   font-size: 10px;
   color: #c9c9c9;
   padding-top: 3px;
+}
+
+.chat-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #262626;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 15px;
+  bottom: 75px;
+  font-size: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
