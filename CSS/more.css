@@ -1,0 +1,105 @@
+.PapayaPay__background {
+  background-color: #e9e9e9;
+}
+
+.more__PapayaPay {
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #d5d5d5;
+}
+.more__PapayaPay .more__PapayaPay-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+}
+.more__PapayaPay .more__PapayaPay-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.more__PapayaPay .more__PapayaPay-profile i {
+  font-size: 25px;
+  color: #b6b6b6;
+  padding-right: 10px;
+}
+.more__PapayaPay .more__PapayaPay-username {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: ##7d7d7d;
+}
+.more__PapayaPay .more__PapayaPay-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.more__PapayaPay .more__PapayaPay-bank {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #dddddd;
+  padding: 15px 20px;
+}
+.more__PapayaPay .more__PapayaPay-bank .more__Papayapay-bank-content {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-left: 1px solid #dddddd;
+}
+.more__PapayaPay
+  .more__PapayaPay-bank
+  .more__Papayapay-bank-content:nth-child(1) {
+  border: none;
+}
+.more__PapayaPay .more__PapayaPay-bank .more__Papayapay-bank-content i {
+  font-size: 20px;
+  color: #adadad;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.more__PapayaPay .more__PapayaPay-bank .more__Papayapay-bank-content span {
+  font-size: 12px;
+}
+
+.more__advertisement {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+.more__advertisement img {
+  width: 100%;
+  height: 100%;
+}
+
+.more_shopping .more__shop {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  margin: 10px 0px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #d5d5d5;
+}
+.more_shopping .more__shop .more__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+}
+.more_shopping .more__shop .more__option i {
+  font-size: 25px;
+  color: #9c9c9c;
+  padding: 0px 40px;
+}
+.more_shopping .more__shop .more__option span {
+  font-size: 12px;
+  padding-top: 7px;
+  color: #9c9c9c;
+  font-weight: 600;
+}

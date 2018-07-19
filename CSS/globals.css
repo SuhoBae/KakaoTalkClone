@@ -7,10 +7,3 @@ body {
   margin-top: 67px;
   margin-bottom: 60px;
 }
-
-.top-header,
-.tab-bar,
-body {
-  align-items: center;
-  justify-content: center;
-}
