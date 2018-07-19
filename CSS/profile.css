@@ -6,8 +6,10 @@
 }
 .profile .profile__header {
   height: 70vh;
-  background-image: url("../images/profile.jpg");
+  background-image: url("https://i.ytimg.com/vi/x0iKFUG6w0I/maxresdefault.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
