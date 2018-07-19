@@ -68,9 +68,8 @@ input {
   justify-content: center;
 }
 .profile__actions .profile__action-title {
-  display: inline-block;
   width: 100%;
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 0.7rem;
   padding-bottom: 20px;
 }
