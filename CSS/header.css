@@ -44,3 +44,6 @@
 .top-header .header__column-profile {
   text-align: right;
 }
+.top-header a {
+  color: white;
+}
